@@ -1,0 +1,27 @@
+{
+  "name": "Winning Buy-Box",
+  "version": "1.0",
+  "description": "Determine if your amazon marketplace products are winning the buybox.",
+
+  "background": {
+    "scripts": ["background.js"]
+
+  },
+
+   "content_scripts": [{
+    "matches": ["*://*.amazon.com/s?marketplaceID=ATVPDKIKX0DER&me=A1ZDJWVHPHTSGN&merchant=A1ZDJWVHPHTSGN&redirect=true"],
+    "js": ["script1.js"]
+ }],
+
+ "browser_action": {
+   "default_icon": "logos/logo3.png",
+   "default_title": "Winning Buy Box",
+   "default_popup": "popup.html"
+ },
+
+  "permissions": [
+     "activeTab"
+],
+
+  "manifest_version": 2
+}
