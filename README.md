@@ -1,5 +1,6 @@
 # Winning-Buy-Box
-(Chrome Extension)
+
+A chrome extension that works in conjunction with amazon marketplace seller web pages.
 
 This is a chrome extension developed for a client from upwork, that is used to determine if each of his products that he is selling is winning the amazon buy box.  
 
