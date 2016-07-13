@@ -2,7 +2,7 @@
 
 A chrome extension that works in conjunction with amazon marketplace seller web pages.
 
-This is a chrome extension developed for a client from upwork, that is used to determine if each of his products that he is selling is winning the amazon buy box.  
+This is a chrome extension used to determine if each of an amazon seller's products is winning the amazon buy box.  
 
 This extension only works on his specific seller page, but theoretically it can be used on any seller page.  
 
